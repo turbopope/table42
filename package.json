@@ -1,6 +1,6 @@
 {
   "name": "table42",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Table For Two -- Two-dimensional HashMap/Table datastructure",
   "main": "index.js",
   "scripts": {
