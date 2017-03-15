@@ -1,0 +1,26 @@
+{
+  "name": "table42",
+  "version": "1.0.0",
+  "description": "Table For Two -- Two-dimensional HashMap/Table datastructure",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turbopope/table42.git"
+  },
+  "keywords": [
+    "data",
+    "datastructure",
+    "map",
+    "hashmap",
+    "table"
+  ],
+  "author": "turbopope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turbopope/table42/issues"
+  },
+  "homepage": "https://github.com/turbopope/table42#readme"
+}
