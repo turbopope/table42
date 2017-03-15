@@ -70,6 +70,27 @@ describe('Table', function() {
         table.toCSV()
       );
     });
+    it('should remove commas', function() {
+      table.set('r,r', 'c,c', '1,1');
+      assert.equal(
+        ",cc\nrr,11\n",
+        table.toCSV()
+      );
+    });
+    it('should remove single-quotes', function() {
+      table.set("r'r", "c'c", "1'1");
+      assert.equal(
+        ",cc\nrr,11\n",
+        table.toCSV()
+      );
+    });
+    it('should remove double-quotes', function() {
+      table.set('r"r', 'c"c', '1"1');
+      assert.equal(
+        ",cc\nrr,11\n",
+        table.toCSV()
+      );
+    });
     it('should produce the expected CSV string (multiple dates with default)', function() {
       table.set('r1', 'c1', 1);
       table.set('r2', 'c2', 2);
