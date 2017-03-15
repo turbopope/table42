@@ -22,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/turbopope/table42/issues"
   },
-  "homepage": "https://github.com/turbopope/table42#readme"
+  "homepage": "https://github.com/turbopope/table42#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
 }
